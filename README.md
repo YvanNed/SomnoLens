@@ -6,11 +6,11 @@
 
 ## Why SomnoLens?
 
-Sleep clinics record polysomnography every night. These routine recordings build large databases and make it possible to set up new research cohorts quickly, e.g. on a specific pathology. Reusing them, however, raises three challenges:
+Sleep clinics record polysomnography every night. These routine recordings build large databases and make it possible to set up new research cohorts quickly, e.g. on a specific pathology. Reusing them, however, raises several challenges:
 
 - **Heterogeneity:** within and across centers, acquisition and export parameters differ (sampling frequency, filters, units, polarity, dynamic range, channel configuration).
-- **Export integrity:** PSG are shared in the 16-bit European Data Format (EDF), whose export settings can silently clip or coarsen the signal. They must be checked before any analysis.
-- **Expertise:** overnight recordings carry specific artifacts, research teams turn over quickly, and most sleep researchers do not program.
+- **Signal Quality:** EDF export settings can silently clip or coarsen the 16-bit signal, and overnight recordings carry specific artifacts.
+- **Flexibility vs. ease of use:** code-based tools adapt to each project but require programming skills, while graphical interfaces are accessible but rigid.
 
 SomnoLens is a modular pipeline, tailored to PSG, that takes a database from export checks to sleep EEG features, **without requiring programming expertise**.
 
