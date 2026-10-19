@@ -2,7 +2,7 @@
 
 **A lens on your nights: no-code tools to inspect, harmonize and preprocess sleep EEG from polysomnography (PSG).**
 
-> **Status:** under active development. The code is currently developed within our (team repository][https://github.com/Dream-Team-ICM/Dream-Toolkit/tree/main/python/Inspect_EDF]  and will be published here.
+> **Status:** under active development. The code is currently developed within our [team repository](https://github.com/Dream-Team-ICM/Dream-Toolkit/tree/main/python/Inspect_EDF)  and will be published here.
 
 ## Why SomnoLens?
 
